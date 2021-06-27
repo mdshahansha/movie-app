@@ -5,6 +5,7 @@ class MovieCard extends Component {
   handleFavouriteClick = () => {
     const { movie } = this.props;
     this.props.dispatch(addToFavourites(movie));
+    console.log("handle clicked")
   };
 
   handleUnFavouriteClick = () => {
@@ -37,6 +38,7 @@ class MovieCard extends Component {
               <button
                 className="favourite-btn"
                 onClick={this.handleFavouriteClick}
+                
               >
                 Favourite
               </button>

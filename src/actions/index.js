@@ -53,8 +53,8 @@ export function handleMovieSearch(searchText) {
         dispatch(addMovieSearchResult(movie));
       });
   };
+   
 }
-
 export function addMovieSearchResult(movie) {
   return {
     type: ADD_SEARCH_RESULT,

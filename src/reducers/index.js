@@ -24,9 +24,9 @@ export function movies(state = initialMoviesState, action) {
   //   }; // returning a new array not changing in state
   // }
 
-  // // if no action type matches
+  // if no action type matches
   // return state;
-
+console.log("movie 122",movies )
   switch (action.type) {
     case ADD_MOVIES:
       return {

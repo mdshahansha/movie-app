@@ -40,7 +40,7 @@ class MovieCard extends Component {
                 onClick={this.handleFavouriteClick}
                 
               >
-                Favourite
+                Favourites
               </button>
             )}
           </div>
